@@ -35,7 +35,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-  deplou-dev:    
+  deplou-dev:
+      needs: build
       runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
