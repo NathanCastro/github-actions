@@ -37,6 +37,6 @@ jobs:
 
   deploy-dev:
     needs: build
-    uses: nathancastro/github-actions/.github/workflows/blank.yml@main
+    uses: NathanCastro/github-actions/.github/workflows/blank.yml@main
     with:
       variavel-demo: "Demo Dev"
